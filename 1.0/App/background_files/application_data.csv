@@ -5,5 +5,5 @@ color_company=#0c604a
 color_active=light grey
 color_inactive=grey
 gui_geometry=1200x700
-icon_file=background_files/skull.ico
+icon_file=background_files/skull.gif
 application_icon=background_files/icon2.png

@@ -45,7 +45,7 @@ class Main():
         gui.resizable(width=True, height=True)
 
         if get_platform() == 'Windows':
-            gui.icon = Image('photo', file=self.app_settings['icon_file'][0])  # puts the icon we use for the window in memory
+            gui.icon = PhotoImage('photo', file=self.app_settings['icon_file'][0])  # puts the icon we use for the window in memory
             gui.tk.call('wm', 'iconphoto', gui._w, gui.icon)
             gui.title(self.app_settings['title'][0])
 
